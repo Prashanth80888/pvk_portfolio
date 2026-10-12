@@ -1,0 +1,28 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.vite/
+*.tsbuildinfo
+
+# Environment files (never commit real secrets)
+.env
+.env.*
+!.env.example
+
+# Compiled production server bundle
+server.js
+
+# Local JSON data store (contains contact messages / personal data)
+data/
+
+# Editor / OS noise
+.idea/
+.vscode/
+*.swp
